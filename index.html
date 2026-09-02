@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unisabana App — Home + Alertas</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="frame-wrap">
+    <div class="frame-label">HOME — recreación</div>
+
+    <div class="phone">
+
+      <div class="scroll-area">
+
+        <div class="home-header">
+
+          <div class="statusbar">
+            <span>11:21</span>
+            <span class="icons">●●●&nbsp; 📶&nbsp; 🔋</span>
+          </div>
+
+          <div class="greeting-row">
+
+            <div class="greeting-left">
+
+              <div class="crest">✦</div>
+
+              <div class="greeting-text">
+                <p>¡Qué gusto verte!</p>
+                <h2>Diego Alejandro</h2>
+              </div>
+
+            </div>
+
+            <div class="bell">🔔</div>
+
+          </div>
+
+          <div class="search-box">
+            <span class="dot"></span>
+            Busca aquí
+          </div>
+
+        </div>
+
+        <div class="quick-actions">
+
+          <div class="qa-card">
+            <div class="qa-icon">🗓️</div>
+            <span>Agenda tu cita</span>
+          </div>
+
+          <div class="qa-card">
+            <div class="qa-icon">📄</div>
+            <span>Calculadora de promedio</span>
+          </div>
+
+          <div class="qa-card">
+            <div class="qa-icon">📋</div>
+            <span>Evaluación docente</span>
+          </div>
+
+          <div class="qa-card">
+            <div class="qa-icon">🚨</div>
+            <span>Reportar alerta</span>
+          </div>
+
+        </div>
+
+        <div class="section-title">Actualidad Unisabana</div>
+
+        <div class="news-row">
+
+          <div class="news-card">
+
+            <div class="tag">Movilidad</div>
+
+            <div class="banner">
+              Suspensión temporal del servicio de tren
+            </div>
+
+            <div class="foot">
+              Novedades del servicio · desde el 1 de sept.
+            </div>
+
+          </div>
+
+          <div
+            class="news-card"
+            style="background:linear-gradient(180deg,#173f7a,#0a1f45);"
+          >
+
+            <div
+              class="banner"
+              style="background:transparent; top:14px;"
+            >
+              El Reto del Rector 2026
+            </div>
+
+            <div class="foot">
+              Para toda la comunidad
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="section-title">Comunidades</div>
+
+        <div class="comm-row">
+
+          <div class="logo">C</div>
+
+          <span>Campus Unisabana</span>
+
+          <span>›</span>
+
+        </div>
+
+      </div>
+
+      <div class="bottomnav">
+
+        <div class="nav-fab">
+          <span>＋</span>
+        </div>
+
+        <div class="nav-item active">
+          <span class="ic">🏠</span>
+          Inicio
+        </div>
+
+        <div class="nav-item">
+          <span class="ic">▦</span>
+          Servicios
+        </div>
+
+        <div style="width:60px;"></div>
+
+        <div class="nav-item">
+          <span class="ic">▥</span>
+          Carnet
+        </div>
+
+        <div class="nav-item">
+          <span class="ic">👤</span>
+          Perfil
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="frame-wrap">
+
+    <div class="frame-label">ALERTAS — nueva sección</div>
+
+    <div class="phone">
+
+      <div class="scroll-area">
+
+        <div class="alertas-header">
+
+          <div class="statusbar">
+            <span>11:21</span>
+            <span class="icons">●●●&nbsp; 📶&nbsp; 🔋</span>
+          </div>
+
+          <h1>Alertas</h1>
+
+          <p>
+            Reporta un objeto o espacio dañado del campus,
+            o cuéntanos qué está pasando.
+          </p>
+
+        </div>
+
+
+        <div class="alertas-body">
+
+          <div class="report-options">
+
+            <div class="report-btn scan">
+
+              <div class="ic-wrap">📷</div>
+
+              <h4>Escanear objeto</h4>
+
+              <p>
+                Usa la cámara para identificar el objeto dañado
+              </p>
+
+            </div>
+
+
+            <div class="report-btn write">
+
+              <div class="ic-wrap">✏️</div>
+
+              <h4>Reportar por escrito</h4>
+
+              <p>
+                Describe qué pasó y dónde
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="form-card">
+
+            <h3>Escanea el objeto</h3>
+
+            <p class="hint">
+              Apunta la cámara al código o etiqueta del objeto
+              para identificarlo automáticamente.
+            </p>
+
+            <div class="scan-target">
+
+              <div class="cam">
+                ▢ 📷 ▢
+              </div>
+
+              <span>
+                Toca para activar la cámara
+              </span>
+
+            </div>
+
+
+            <div class="field-label">
+              ¿Qué está pasando?
+            </div>
+
+            <textarea
+              class="field"
+              placeholder="Ej: La silla del salón B-204 está rota, le falta una pata..."
+            ></textarea>
+
+
+            <div class="field-label">
+              Ubicación
+            </div>
+
+            <input
+              class="field"
+              placeholder="Edificio, salón o zona"
+            >
+
+
+            <div class="field-label">
+              Tipo de objeto
+            </div>
+
+            <div class="chip-row">
+
+              <div class="chip sel">
+                Mobiliario
+              </div>
+
+              <div class="chip">
+                Equipo tecnológico
+              </div>
+
+              <div class="chip">
+                Infraestructura
+              </div>
+
+              <div class="chip">
+                Otro
+              </div>
+
+            </div>
+
+
+            <button class="submit-btn">
+              Enviar reporte
+            </button>
+
+          </div>
+
+
+          <div class="status-title">
+            Tus reportes recientes
+          </div>
+
+
+          <div class="alert-item">
+
+            <div class="dot-stat pend"></div>
+
+            <div class="txt">
+
+              <h5>
+                Silla rota — Salón B-204
+              </h5>
+
+              <p>
+                Enviado hoy · 10:32 a.m.
+              </p>
+
+            </div>
+
+            <div class="status-pill pend">
+              Pendiente
+            </div>
+
+          </div>
+
+
+          <div class="alert-item">
+
+            <div class="dot-stat rev"></div>
+
+            <div class="txt">
+
+              <h5>
+                Proyector sin imagen — Aula 3B
+              </h5>
+
+              <p>
+                Enviado ayer · 4:10 p.m.
+              </p>
+
+            </div>
+
+            <div class="status-pill rev">
+              En revisión
+            </div>
+
+          </div>
+
+
+          <div class="alert-item">
+
+            <div class="dot-stat done"></div>
+
+            <div class="txt">
+
+              <h5>
+                Grifo dañado — Baños Biblioteca
+              </h5>
+
+              <p>
+                Enviado 28 ago.
+              </p>
+
+            </div>
+
+            <div class="status-pill done">
+              Resuelto
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="bottomnav">
+
+        <div class="nav-fab">
+          <span>＋</span>
+        </div>
+
+        <div class="nav-item">
+          <span class="ic">🏠</span>
+          Inicio
+        </div>
+
+        <div class="nav-item">
+          <span class="ic">▦</span>
+          Servicios
+        </div>
+
+        <div style="width:60px;"></div>
+
+        <div class="nav-item alertas active">
+          <span class="ic">⚠️</span>
+          Alertas
+        </div>
+
+        <div class="nav-item">
+          <span class="ic">👤</span>
+          Perfil
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
