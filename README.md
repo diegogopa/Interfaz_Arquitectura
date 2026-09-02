@@ -20,7 +20,7 @@ Este proyecto contiene la recreación de una interfaz móvil con diferentes secc
 - Git
 - GitHub Pages
 
-#🚀 Despliegue
+## 🚀 Despliegue
 - https://diegogopa.github.io/Interfaz_Arquitectura/
 ## 📂 Estructura del proyecto
 
